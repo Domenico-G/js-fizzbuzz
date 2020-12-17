@@ -1,5 +1,4 @@
 // creo un array vuoto
-
 var array = [];
 
 // stampo nella console i numeri da 1 a 100 e trovo i miltipli di 3 e di 5
@@ -14,4 +13,8 @@ for (var i = 1; i <= 100; i++) {
     array.push(i);
   }
 }
-console.log(array);
+// console.log(array);
+// stampo l'array modo lista in console
+for (var i = 0; i < array.length; i++) {
+  console.log(arrayList = array[i]);
+}
